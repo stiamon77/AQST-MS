@@ -1,5 +1,5 @@
 # AQST-MS
-Occupancy\Motion sensor HLK-LD1115H-24G ESP32 or ESP8266 Arduino.
+Occupancy\Motion sensor HLK-LD1115H-24G ESP32 or ESP8266 Arduino with connection to Home Assistant.
 
 Buy me a coffee In Bulgaria https://paypal.me/StanislavTimofeev       )
 
