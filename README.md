@@ -9,5 +9,11 @@ See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24
 
 and in https://h.hlktech.com/Mobile/download/fdetail/183.html
 
+**Home Assistant integration**
+
 ![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/AQST-MS_HA_img1.png)
 ![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/AQST-MS_HA_img2.png)
+
+**ESP32-C3**
+
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP32-C3.jpg)
