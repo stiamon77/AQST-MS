@@ -21,3 +21,7 @@ and in https://h.hlktech.com/Mobile/download/fdetail/183.html
 **ESP32-S2**
 
 ![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP32-S2.jpg)
+
+**ESP8266 D1 Mini V3-V4**
+
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP8266%20D1%20Mini.jpg)
