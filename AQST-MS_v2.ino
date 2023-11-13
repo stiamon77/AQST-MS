@@ -1,6 +1,6 @@
 //https://github.com/stiamon77/AQST-MS
 
-//Buy me a coffee In Bulgaria https://paypal.me/StanislavTimofeev
+//Buy me a coffee https://paypal.me/StanislavTimofeev
 
 #if defined(ESP8266)
 
@@ -36,7 +36,15 @@ https://dawidchyrzynski.github.io/arduino-home-assistant/index.html
 
 //---LED---
 #include <FastLED.h>
-#define DATA_PIN    D3 //esp8266
+
+#if defined(ESP8266)
+#define DATA_PIN    0 //esp8266
+#endif
+
+#if defined(ESP32)
+#define DATA_PIN    10 //esp32
+#endif
+
 //#define CLK_PIN 4
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER   GRB
@@ -64,7 +72,7 @@ volatile bool timerActive1 = false;
 #endif
 
 //---WiFi---
-//Enter your WiFi network details, SSID and password
+//SSID and password
 const char* WIFI_SSID = "1111";
 const char* WIFI_PASSWORD = "2222";
 String clientId;
@@ -75,7 +83,6 @@ WiFiClient espClient;
 uint32_t chipId;
 
 //---MQTT---
-//Enter your Home Assistant information
 #define BROKER_ADDR     IPAddress(192,168,0,10)
 #define BROKER_USERNAME     "mqtt" // replace with your credentials
 #define BROKER_PASSWORD     "mqtt"
