@@ -43,6 +43,8 @@ or
 
 [**ABS Plastic Case**](https://s.click.aliexpress.com/e/_mNRPQqo) And of course, I specially selected the right case to accommodate all the electronic stuffing. See below how to place everything in it correctly and where to make the holes. You can choose a suitable color, black or white.
 
+**!When installing the sensor into the housing, remember that the distance from the antenna on the front side of the sensor to the housing wall must be at least 5-6mm.!**
+
 [**UV Bonding & Welding Glue**](https://s.click.aliexpress.com/e/_mKt8EUU) This is not necessary, but to make beautiful holes for the light brightness sensor and LED, this glue will be useful. It is transparent after drying.
 
 [**HSS Straight Groove Step Drill**](https://s.click.aliexpress.com/e/_mqpy4ZI) This is also not necessary, but beautiful holes can be made using a step drill.
@@ -120,7 +122,19 @@ You need to configure the parameters to suit your conditions. Find a balance bet
  
 ### **You can ask your questions or suggestions [here](https://github.com/stiamon77/AQST-MS/discussions)**
 
+## **Recommendations for placing sensors in a room:**
 
+The sensors must be located at a distance of more than about.5 meters from each other.
+
+The sensors should not face each other. Their rays should not intersect.
+
+Do not place sensors near outlets or other electrical appliances.
+
+Do not point the sensors at a fan or air conditioner; shaking surfaces may interfere with the sensor's operation.
+
+It is optimal to place the sensor on the wall, at a distance of 80-100cm from the floor. Or on the ceiling.
+
+If a person sits quietly with their back to the sensor, the sensitivity effect will be reduced. Because when the back is turned to the radar, the chest or abdomen subject to vibrations are not visible to the sensor.
 
 
 
