@@ -115,7 +115,9 @@ Changing data below 110 is not recommended; there will be many false positives.
 
 You need to configure the parameters to suit your conditions. Find a balance between sensitivity and eliminating false positives.
 
-You can ask your questions or suggestions [here](https://github.com/stiamon77/AQST-MS/discussions)
+***
+
+## **You can ask your questions or suggestions [here](https://github.com/stiamon77/AQST-MS/discussions)**
 
 
 
