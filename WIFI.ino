@@ -17,7 +17,7 @@ void startWIFI (){
 
   device.setUniqueId(mac, sizeof(mac));
   
-  clientId = "AQST-MS-"+String(chipId, HEX);
+  clientId = "AQST-MS-"+String(chipId, HEX);  //Please don't change this. Needed for version control
 
   //init the WiFi connection
   #ifdef DEBUG
