@@ -124,7 +124,7 @@ You need to configure the parameters to suit your conditions. Find a balance bet
 
 ## **Recommendations for placing sensors in a room:**
 
-The sensors must be located at a distance of more than about.5 meters from each other.
+The sensors must be located at a distance of more than about 0.5 meters from each other.
 
 The sensors should not face each other. Their rays should not intersect.
 
