@@ -62,7 +62,7 @@ Since our device requires constant power from a USB charger, you need at least 2
 
 ## **Connection:**
 
-In the code you only need to change a few fields
+In the code AQST-MS_v2.ino you only need to change a few fields
 
 `const char* WIFI_SSID = "1111";` 
 
