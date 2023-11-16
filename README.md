@@ -138,6 +138,7 @@ It is optimal to place the sensor on the wall, at a distance of 80-100cm from th
 
 If a person sits quietly with their back to the sensor, the sensitivity effect will be reduced. Because when the back is turned to the radar, the chest or abdomen subject to vibrations are not visible to the sensor.
 
+See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24G ](https://github.com/stiamon77/AQST-MS/tree/main/Documentation%20HLK-LD1115H-24G)
 
 
 
