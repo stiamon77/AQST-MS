@@ -43,7 +43,7 @@ or
 
 [**ABS Plastic Case**](https://s.click.aliexpress.com/e/_mNRPQqo) And of course, I specially selected the right case to accommodate all the electronic stuffing. See below how to place everything in it correctly and where to make the holes. You can choose a suitable color, black or white.
 
-**!When installing the sensor into the housing, remember that the distance from the antenna on the front side of the sensor to the housing wall must be at least 5-6mm.!**
+**!When installing the sensor into the Plastic Case, remember that the distance from the antenna on the front side of the sensor to the Plastic Case wall must be at least 5-6mm.!**
 
 [**UV Bonding & Welding Glue**](https://s.click.aliexpress.com/e/_mKt8EUU) This is not necessary, but to make beautiful holes for the light brightness sensor and LED, this glue will be useful. It is transparent after drying.
 
