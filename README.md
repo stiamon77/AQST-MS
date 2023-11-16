@@ -54,6 +54,70 @@ and
 Since our device requires constant power from a USB charger, you need at least 2a (look at the power supply, your old phone charger with USB will do). And since the device will hang on the wall, it is more convenient to make the power cable yourself; for this we need a wire (you can buy it at an electrician’s store) and contacts [**USB**](https://s.click.aliexpress.com/e/_ok0QxCx) and [**USB-C**](https://s.click.aliexpress.com/e/_mtt0R5a). See the connection diagram below.
 
 
+   
+
+**Connection to Home Assistant and setup instructions:**
+
+**Connection:**
+
+In the code you only need to change a few fields
+
+const char* WIFI_SSID = "**1111**"; 
+
+Instead of **1111**, enter the name of your WiFi network, please note that ESP32 and ESP8266 operate on a 2.4 hertz network, a 5 hertz network is not suitable for them. This is usually not a problem and WiFi routers support two bands at the same time. Make sure you are running at 2.4 hertz
+
+const char* WIFI_PASSWORD = "**2222**";
+
+Instead of **2222**, enter the password of your WiFi network
+
+#define BROKER_ADDR     IPAddress(**192,168,0,10**)
+
+Instead of **192,168,0,10** , enter the IP address of your Home Assistant
+
+#define BROKER_USERNAME     "**mqtt**"
+#define BROKER_PASSWORD     "**mqtt**"
+
+If you changed mqtt settings, login and password, change this data in the code. If not, then this is the default login and password; you do not need to change them.
+
+If you changed the Led connection port, then change it in the code
+
+For ESP8266
+
+#if defined(ESP8266)
+#define DATA_PIN    0 //esp8266
+
+And for ESP32
+
+#if defined(ESP32)
+#define DATA_PIN    10 //esp32
+
+Once enabled, the sensor will automatically connect to HA and appear in MQTT devices
+
+**Setting:**
+
+Our sensor is equipped with an LED to indicate detection, if it detects the presence or movement of a person, the LED lights up red, otherwise it turns green.
+With the **“Led On-Off”** setting you can turn the indication LED on or off.
+
+**"Led Bright"** allows you to adjust its brightness.
+
+**“Reset to default (settings only)”** allows you to reset the settings of the LD1115H sensor to factory settings, after clicking this button, click the “Save settings” button.
+
+**“Save settings”** After setting the sensor sensitivity, press this button to save the data into the sensor memory.
+
+**“Motion sensor (TH1)”** is a motion detection sensitivity setting. The factory setting is **120**, this is the maximum sensitivity (about 4-6 meters), if you increase it the sensitivity will decrease, this is necessary if your room is small and you need to avoid detecting movement behind the wall.
+
+Changing data below 110 is not recommended; there will be many false positives.
+
+**“Occupancy sensor (TH2)”** is the sensitivity of presence detection. When a person is in a room and does not move. Works normally within a radius of 2-3 meters. The factory value of 250 increases the sensitivity and detection range, but may also increase the possibility of false alarms.
+
+You need to configure the parameters to suit your conditions. Find a balance between sensitivity and eliminating false positives.
+
+
+
+
+
+
+
 
 **Connection diagrams:**
 
