@@ -122,6 +122,8 @@ You need to configure the parameters to suit your conditions. Find a balance bet
  
 ### **You can ask your questions or suggestions [here](https://github.com/stiamon77/AQST-MS/discussions)**
 
+***
+
 ## **Recommendations for placing sensors in a room:**
 
 The sensors must be located at a distance of more than about 0.5 meters from each other.
