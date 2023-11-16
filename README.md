@@ -39,7 +39,7 @@ and
 
 [**1x HLK-LD1155H-24G**](https://s.click.aliexpress.com/e/_mOwmUMk) Microwave Radar Sensor Detection Motion Module
 
-[**1x LED WS2812B**](https://s.click.aliexpress.com/e/_EQSz20l) if you are making several devices, it is more profitable to buy 1 meter of LED strip consisting of WS2812B diodes, it will be cheaper. The tape must be cut one LED at a time and used as indicated in the diagrams below.  If there is one device, then there is a [[WS2812B module](https://s.click.aliexpress.com/e/_mtHwtJO)](https://s.click.aliexpress.com/e/_mtHwtJO) with this LED. Choose the smallest one.
+[**1x LED WS2812B**](https://s.click.aliexpress.com/e/_EQSz20l) if you are making several devices, it is more profitable to buy 1 meter of LED strip consisting of WS2812B diodes, it will be cheaper. The tape must be cut one LED at a time and used as indicated in the diagrams below.  If there is one device, then there is a [WS2812B module](https://s.click.aliexpress.com/e/_mtHwtJO) with this LED. Choose the smallest one.
 
 [**ABS Plastic Case**](https://s.click.aliexpress.com/e/_mNRPQqo) And of course, I specially selected the right case to accommodate all the electronic stuffing. See below how to place everything in it correctly and where to make the holes. You can choose a suitable color, black or white.
 
