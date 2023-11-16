@@ -2,9 +2,9 @@ void startHA() {
 
   //set device's details (optional)
   device.setName(clientId.c_str());
-  device.setSoftwareVersion("1.3.3");
-  device.setManufacturer("AQST");
-  device.setModel("AQST-MS v2");
+  device.setSoftwareVersion("1.3.3");  //Please don't change this. Needed for version control
+  device.setManufacturer("AQST");  //Please don't change this. Needed for version control
+  device.setModel("AQST-MS v2");  //Please don't change this. Needed for version control
 
   luxSensor.setIcon("mdi:brightness-7");
   luxSensor.setName("Illuminance");
