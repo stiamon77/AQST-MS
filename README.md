@@ -11,8 +11,8 @@ and in https://h.hlktech.com/Mobile/download/fdetail/183.html
 
 ## **Home Assistant integration**
 
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.1/image/AQST-MS_HA_img1.png)
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.1/image/AQST-MS_HA_img2.png)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.1/image/AQST-MS_HA_img21.png)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.1/image/AQST-MS_HA_img22.png)
 
 
 # **To get started we will need:**
