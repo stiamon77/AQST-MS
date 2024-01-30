@@ -62,9 +62,7 @@ Since our device requires constant power from a USB charger, you need at least 2
 
 ## **Connection:**
 
-Download this firmware on your device.
-
-Connect the device to power and briefly press the button once. For ESP32, this can be the BOOT button if you specified TRIGGER_PIN 0 in your sketch.
+Connect the device to power and briefly press the button once. For **ESP32**, this can be the BOOT button if you specified `TRIGGER_PIN 0` in your sketch.
 
 After this, the device will create a WiFi network **AQST-MS-.........-CONFIG**. From any device (smartphone, tablet, laptop, etc.) connect to this network. The device settings menu will automatically open. If this does not happen, open your Internet browser and open the page with the address **192.168.4.1**.
 
