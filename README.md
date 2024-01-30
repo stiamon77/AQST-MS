@@ -62,25 +62,15 @@ Since our device requires constant power from a USB charger, you need at least 2
 
 ## **Connection:**
 
-In the code AQST-MS_v2.ino you only need to change a few fields
+Download this firmware on your device.
 
-`const char* WIFI_SSID = "1111";` 
+Connect the device to power and briefly press the button once. For ESP32, this can be the BOOT button if you specified TRIGGER_PIN 0 in your sketch.
 
-Instead of **1111**, enter the name of your WiFi network, please note that ESP32 and ESP8266 operate on a 2.4 hertz network, a 5 hertz network is not suitable for them. This is usually not a problem and WiFi routers support two bands at the same time. Make sure you are running at 2.4 hertz
+After this, the device will create a WiFi network **AQST-MS-.........-CONFIG**. From any device (smartphone, tablet, laptop, etc.) connect to this network. The device settings menu will automatically open. If this does not happen, open your Internet browser and open the page with the address **192.168.4.1**.
 
-`const char* WIFI_PASSWORD = "2222";`
+Enter your WiFi network details and the IP address of the Home Assystant server. Click save. After this, the device will reboot and connect to HA. All settings will be saved in the device memory. If you need to change them, click the button and repeat the settings.
 
-Instead of **2222**, enter the password of your WiFi network
-
-`#define BROKER_ADDR     IPAddress(**192,168,0,10**)`
-
-Instead of **192,168,0,10** , enter the IP address of your Home Assistant
-
-`#define BROKER_USERNAME     "mqtt"`
-
-`#define BROKER_PASSWORD     "mqtt"`
-
-If you changed mqtt settings, login and password, change this data in the code. If not, then this is the default login and password; you do not need to change them.
+If you changed mqtt settings, login and password (mqtt), change this data in the code. If not, then this is the default login and password; you do not need to change them.
 
 If you changed the Led connection port, then change it in the code
 
@@ -97,6 +87,10 @@ And for ESP32
 `#define DATA_PIN    10 //esp32`
 
 Once enabled, the sensor will automatically connect to HA and appear in MQTT devices
+
+## **Reset settings:**
+
+You can also completely reset the settings by pressing the button and holding it for more than three seconds.
 
 ## **Setting:**
 
