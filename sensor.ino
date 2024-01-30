@@ -2,7 +2,7 @@ void startHA() {
 
   //set device's details (optional)
   device.setName(clientId.c_str());
-  device.setSoftwareVersion("1.3.3");
+  device.setSoftwareVersion("2.1.1");
   device.setManufacturer("AQST");
   device.setModel("AQST-MS v2");
 
