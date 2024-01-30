@@ -5,14 +5,14 @@ Buy me a coffee https://paypal.me/StanislavTimofeev       )
 
 **Main file AQST-MS_v2.ino**
 
-See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24G ](https://github.com/stiamon77/AQST-MS/tree/main/Documentation%20HLK-LD1115H-24G)
+See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24G ](https://github.com/stiamon77/AQST-MS/tree/2.0/Documentation%20HLK-LD1115H-24G)
 
 and in https://h.hlktech.com/Mobile/download/fdetail/183.html
 
 ## **Home Assistant integration**
 
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/AQST-MS_HA_img1.png)
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/AQST-MS_HA_img2.png)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.0/image/AQST-MS_HA_img21.png)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.0/image/AQST-MS_HA_img22.png)
 
 
 # **To get started we will need:**
@@ -138,7 +138,7 @@ It is optimal to place the sensor on the wall, at a distance of 80-100cm from th
 
 If a person sits quietly with their back to the sensor, the sensitivity effect will be reduced. Because when the back is turned to the radar, the chest or abdomen subject to vibrations are not visible to the sensor.
 
-See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24G ](https://github.com/stiamon77/AQST-MS/tree/main/Documentation%20HLK-LD1115H-24G)
+See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24G ](https://github.com/stiamon77/AQST-MS/tree/2.0/Documentation%20HLK-LD1115H-24G)
 
 
 
@@ -146,12 +146,12 @@ See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24
 
 ### **ESP32-C3**
 
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP32-C3.jpg)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.0/image/ESP32-C3.jpg)
 
 ### **ESP32-S2**
 
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP32-S2.jpg)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.0/image/ESP32-S2.jpg)
 
 ### **ESP8266 D1 Mini V3-V4**
 
-![Image alt](https://github.com/stiamon77/AQST-MS/blob/main/image/ESP8266%20D1%20Mini.jpg)
+![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.0/image/ESP8266%20D1%20Mini.jpg)
