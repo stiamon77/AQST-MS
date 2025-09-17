@@ -1,7 +1,9 @@
 # AQST-MS
 Occupancy\Motion sensor HLK-LD1115H-24G ESP32 or ESP8266 Arduino with integration to Home Assistant.
 
+
 ## [Lend your support to our projects](https://taplink.cc/aqstqa)
+
 
 **Main file AQST-MS_v2_1.ino**
 
@@ -143,6 +145,12 @@ See the documentation for the sensor in the folder [Documentation HLK-LD1115H-24
 ### **ESP32-S2**
 
 ![Image alt](https://github.com/stiamon77/AQST-MS/blob/2.1/image/ESP32-S2.jpg)
+
+
+
+## [Lend your support to our projects](https://taplink.cc/aqstqa)
+
+
 
 ### **ESP8266 D1 Mini V3-V4**
 
